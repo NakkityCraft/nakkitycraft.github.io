@@ -40,7 +40,15 @@
       <div class="mdui-dialog-actions">
         <button class="mdui-btn mdui-ripple" mdui-dialog-close>Okay...</button>
       </div>
-    </div>
+</div>
+<div class="mdui-dialog" id="redwarn">
+      <div class="mdui-dialog-title">Hey!</div>
+      <div class="mdui-dialog-content">You will Redirect to our Blog by Jekyll theme!(because it's beta)</div>
+      <div class="mdui-dialog-actions">
+        <button class="mdui-btn mdui-ripple" mdui-dialog-close>Close</button>
+	<a><button class="mdui-btn mdui-ripple" mdui-dialog-confirm>Yes, I know.</button></a>
+      </div>
+</div>
 
 <div class="mdui-drawer mc-drawer" id="left-drawer">
     <div class="mdui-list" mdui-collapse="{accordion: true}">
@@ -59,7 +67,7 @@
         </div>
 	    <div class="mdui-list-item mdui-ripple">
             <i class="mdui-list-item-icon mdui-icon material-icons">book</i>
-            <a href="/book" class="mdui-list-item-content">Blogs</a>
+            <a href="javascript:" class="mdui-list-item-content" mdui-dialog="{target: '#redwarn'}">Blogs</a>
         </div>
         </div>
 </div>
@@ -76,6 +84,7 @@
 	<p>    Click <a href="/nakkitycraft/index">There</a> to jump in with us!<p>
 	<h2 class="mdui-text-color-theme">Where is the Chinese?</h2>
 	<p>    Okay, the Chinese friends, we are not reday, QAQ<p>
+</div>
 </div>
 </div>
 </div>
