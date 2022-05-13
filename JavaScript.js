@@ -1,13 +1,5 @@
 /* Get Out Of There.
    Your mom.         */
-/* My Script */
-var $$ = mdui.$;
-$('#beta').on('click', function () {
-  mdui.snackbar({
-    message: 'Sorry, This page is locked, you need a cookie.',
-    position: 'bottom'
-  });
-});
 /* Mdui */
 /*!
  * mdui 1.0.2 (https://mdui.org)
@@ -2527,3 +2519,11 @@ $('#beta').on('click', function () {
     }), B
 });
 //# sourceMappingURL=mdui.min.js.map
+/* My Script */
+var $$ = mdui.$;
+$('#beta').on('click', function () {
+  mdui.snackbar({
+    message: 'Sorry, This page is locked, you need a cookie.',
+    position: 'bottom'
+  });
+});
