@@ -106,8 +106,18 @@
 </div>
 </div>
 </div>
-<script src="/mdui.min.js"></script>
-<script src="/JavaScript.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+<script src="/mdui.min.js"></script>
+<script type="text/javascript">
+var $ = mdui.$
+$('#beta').on('click', function () {
+  mdui.snackbar({
+    message: 'Sorry, This page is locked, you need a cookie.'
+  });
+});
+$("#jk").on('click', function(){
+  $('body').toggleClass('mdui-theme-layout-dark')
+});
+</script>
 </body>
 </html>
