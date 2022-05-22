@@ -24,7 +24,7 @@
     <!-- GO AWAY -->
     <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-128/web-1439337-1214457.png" />
 </head>
-<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
 <div class="mdui-appbar">
 <!--<div class="mdui-appbar mdui-container">
     <div class="mdui-toolbar mdui-color-indigo">
@@ -110,13 +110,15 @@
 <script src="/mdui.min.js"></script>
 <script type="text/javascript">
 var $ = mdui.$
+var now = new Date();
+var xsystemTime = now.getHours();
 $('#beta').on('click', function () {
   mdui.snackbar({
     message: 'Sorry, This page is locked, you need a cookie.'
   });
 });
 $("#jk").on('click', function(){
-  $('body').toggleClass('mdui-theme-layout-dark')
+  $('body').toggleClass('mdui-theme-layout-dark mdui-theme-layout-auto')
 });
 </script>
 </body>
