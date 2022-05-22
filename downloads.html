@@ -32,7 +32,7 @@
   <body
     class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink"
   >
-    <div id="banner" class="mdui-appbar" mdui-headroom>
+    <div class="mdui-appbar">
       <div class="mdui-appbar mdui-container">
         <div class="mdui-toolbar mdui-color-indigo">
           <a
@@ -150,6 +150,15 @@
         </div>
       </div>
     </div>
+    <div class="mdui-container">
+        <div class="jk">
+          <i class="mdui-icon material-icons mdui-text-color-theme" style="float:left;width:100%">
+            file_download
+          </i>
+          <h1 class="mdui-text-center mdui-text-color-theme" style="float:right;width:100%">
+            Chenkenlife | Downloads
+          </h1>
+        </div>
       <div class="mdui-subheader">
         May the download link will slow, because it is my server.:D
       </div>
@@ -169,9 +178,11 @@
     <div class="mdui-list-item-avatar">
       <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.X8TEdnBf-on-3bomCU8TrQHaEE?w=295&h=180&c=7&r=0&o=5&pid=1.7"/>
     </div>
-    <div class="mdui-list-item-content">Download Test</div>
+    <div class="mdui-list-item-content mdui-list-item-one-line">Download Test</div>
+    <div class="mdui-list-item-text mdui-list-item-two-line">Download Test :D</div>
     <i class="mdui-list-item-icon mdui-icon material-icons">file_download</i>
   </li>
+    </div>
     </div>
     <script src="mdui.min.js"></script>
     <script src="JavaScript.js"></script>
@@ -184,9 +195,9 @@
           message: "Sorry, This page is locked, you need a cookie."
         });
       }),
-        $("#jk").on("click", function () {
-          $("body").toggleClass(
-            "mdui-theme-layout-dark mdui-theme-layout-auto"
+      $("#jk").on("click", function () {
+        $("body").toggleClass(
+          "mdui-theme-layout-dark mdui-theme-layout-auto"
           );
         });
     </script>
