@@ -2,116 +2,7 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>无边无垠的黑暗中，[\s]已死的仙人产生了意识。</p>
-      </mono>
-      <se id="01-01白光转场"/>
-      <delay t="0.15"/>
-      <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
-      <mono>起初，新生的意识正如世界的诞生一般，只是太虚中的一个光点。</mono>
-      <se id="01-01恢复意识" looptimes="-1"/>
-      <bg img="BGIntel1" duration="3"/>
-      <mono>
-        <p/>
-        <p>『它』的权能还很有限，既无法接收感官传来的讯号，也无法下达神经所需的指令。</p>
-      </mono>
-      <bg img="BGIntel3" duration="5"/>
-      <mono pageend="true">
-        <p/>
-        <p>浑沌之中，微弱的意识遵循古老的本能，盲目却坚定地存在着，延伸着。</p>
-      </mono>
-      <delay t="0.2"/>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>它还未发现自己的死亡。[\s]</p>
-        <p>她拒绝承认自己的死亡——</p>
-      </mono>
-      <se id="01-01恢复意识" looptimes="0"/>
-      <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"/>
-      <transition mode="fade" in="0" stop="0.2" out="1.5" color="#FFFFFF"/>
-      <bg img="PureBlack"/>
-      <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>若以常识评断，仙人确实已经死了。</p>
-      </mono>
-      <event action="hide_ui"/>
-      <cg img="CG_第一折_赤鸢碎片1"/>
-      <delay t="0.5"/>
-      <event action="show_ui"/>
-      <mono>她的右足齐踝而断。</mono>
-      <event action="hide_ui"/>
-      <cg img="CG_第一折_赤鸢碎片2"/>
-      <delay t="0.5"/>
-      <event action="show_ui"/>
-      <mono>
-        <p/>
-        <p>她的双手筋脉俱废。</p>
-      </mono>
-      <event action="hide_ui"/>
-      <cg img="CG_第一折_赤鸢碎片3"/>
-      <delay t="0.5"/>
-      <event action="show_ui"/>
-      <mono>
-        <p/>
-        <p>她的内脏全数毁坏。</p>
-      </mono>
-      <event action="hide_ui"/>
-      <cg img="CG_第一折_赤鸢碎片4"/>
-      <delay t="0.5"/>
-      <event action="show_ui"/>
-      <mono>
-        <p/>
-        <p>伤势最重的心口，破损则有十余处之多。</p>
-      </mono>
-      <cg duration="0.5"/>
-      <mono pageend="true">
-        <p/>
-        <p>但，最致命的伤口是在头部。</p>
-      </mono>
-      <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"/>
-      <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"/>
-      <se id="01-02大剑命中"/>
-      <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"/>
-      <bg img="BGBlood1"/>
-      <mono>那是一道剑伤。</mono>
-      <mono inline="true">
-        <p/>
-        <p>剑刺中她的前额，</p>
-      </mono>
-      <mono inline="true">破坏了她的脑部，</mono>
-      <mono>接着穿颅而过。</mono>
-      <mono>若换作普通人，其中任一道伤势就足以令其殒命。</mono>
-      <mono pageend="true">
-        <p/>
-        <p>可“仙人”并不普通。</p>
-      </mono>
-      <transition mode="eye" in="2" stop="0" out="2" color="#000000"/>
-      <se id="01-03野外小屋loop" looptimes="-1"/>
-      <cg img="CG_第一折_赤鸢沉睡" duration="0" origin="15%,0%" scale="2"/>
-      <delay t="2.2"/>
-      <bg/>
-      <event action="show_ui"/>
-      <mono pageend="true">仙人不死，亦不灭。</mono>
-      <event action="show_ui"/>
-      <mono>
-        <p>身经千年而不死。[\s]</p>
-        <p>魂历万年而不灭。[\s]</p>
-        <p/>
-        <p>彻底颠覆衰亡的法则，</p>
-        <p>神州独一无二的仙人。</p>
-      </mono>
+      <mono>米哈游请你不要刀赤鸢仙人了求你了所以我跳过了一些不好的东西。</mono>
       <mono pageend="true">
         <p/>
         <p/>
@@ -130,43 +21,10 @@
         <p>仙人的大脑和肉体开始了漫长的修复与重组。</p>
       </mono>
       <event action="show_ui"/>
-      <delay t="7"/>
-      <mono pageend="true">汲取周遭的每一分真气，</mono>
-      <event action="hide_ui" duration="2"/>
-      <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
+      <mono pageend="true">halo效果是什么</mono>
       <delay t="2"/>
-      <event action="show_ui"/>
-      <se id="01-05痊愈"/>
-      <mono>
-        <p/>
-        <p>织补剥裂的皮肤，</p>
-      </mono>
-      <event action="hide_ui" duration="2"/>
-      <cg img="CG_第一折_赤鸢沉睡3" duration="2"/>
-      <delay t="2"/>
-      <se id="01-06痊愈"/>
-      <mono>
-        <p/>
-        <p>接续断裂的骨骼，</p>
-      </mono>
-      <event action="hide_ui" duration="2"/>
-      <cg img="CG_第一折_赤鸢沉睡4" duration="2"/>
-      <delay t="2"/>
-      <se id="01-07痊愈"/>
-      <mono>
-        <p/>
-        <p>连延破碎的肌肉，</p>
-      </mono>
-      <event action="hide_ui" duration="2"/>
-      <cg img="CG_第一折_赤鸢沉睡5" duration="2"/>
-      <delay t="2"/>
-      <event action="show_ui"/>
-      <se id="01-05痊愈"/>
-      <mono pageend="true">
-        <p/>
-        <p>修复损毁的器官……</p>
-      </mono>
-      <delay t="2"/>
+      <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
+      <mono pageend="true">再来一遍！！</mono>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
       <se id="01-04痊愈loop" looptimes="0"/>
       <cg/>
