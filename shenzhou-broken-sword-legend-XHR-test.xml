@@ -2,15 +2,12 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <mono>米哈游请你不要刀赤鸢仙人了求你了x5!!!</mono>
-      <mono pageend="true">
-        <p>准备测试了哦QAQ</p>
-      </mono>
-      <mono>于是， </mono>
-      <event action="show_ui"/>
+      <mono>米哈游请你不要刀赤鸢仙人了求你了x16!!!</mono>
+      <mono>Let get started.</mono>
+      <event action="hide_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
-      <cg img="CG_第一折_赤鸢沉睡" duration="3" scale="1" origin="1%,0%"/>
+      <cg img="CG_第一折_赤鸢沉睡" duration="3" scale="1" origin="33%,0%"/>
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
