@@ -2,7 +2,7 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <mono>米哈游请你不要刀赤鸢仙人了求你了所以我跳过了一些不好的东西。</mono>
+      <mono>米哈游请你不要刀赤鸢仙人了求你了。</mono>
       <mono pageend="true">
         <p>准备测试了哦QAQ</p>
       </mono>
@@ -10,7 +10,7 @@
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
-      <cg img="CG_第一折_赤鸢沉睡" duration="2" scale="2" origin="2%,0%"/>
+      <cg img="CG_第一折_赤鸢沉睡" duration="2" scale="1" origin="80%,0%"/>
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
