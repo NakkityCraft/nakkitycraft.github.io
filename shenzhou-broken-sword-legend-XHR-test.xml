@@ -2,6 +2,7 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
+      <cg img="CG_第一折_赤鸢沉睡" duration="8" scale="3" origin="50%,0%"/>
       <mono>米哈游请你不要刀赤鸢仙人了求你了所以我跳过了一些不好的东西。</mono>
       <mono pageend="true">
         <p/>
