@@ -2,29 +2,21 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <cg img="CG_第一折_赤鸢沉睡" duration="2" scale="2" origin="50%,0%"/>
       <mono>米哈游请你不要刀赤鸢仙人了求你了所以我跳过了一些不好的东西。</mono>
       <mono pageend="true">
-        <p/>
-        <p/>
-        <p>准备测试cg标签是是什么意思</p>
-        <p>如今静静躺在石室中的这具残躯，当初正是这样的存在。</p>
+        <p>准备测试了哦QAQ</p>
       </mono>
       <mono>于是， </mono>
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
-      <mono pageend="true">点击开始播放CG!!!芜湖！！</mono>
-      <cg img="CG_第一折_赤鸢沉睡" duration="8" scale="3" origin="50%,0%"/>
+      <cg img="CG_第一折_赤鸢沉睡" duration="2" scale="2" origin="2%,0%"/>
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
         <p>从一个个神经元开始，</p>
-        <p>仙人的大脑和肉体开始了漫长的修复与重组。</p>
+        <p>刀人的我不看刀人的我不看我不看我不看我不看。</p>
       </mono>
-      <delay t="2"/>
-      <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
-      <mono pageend="true">再来一遍！！</mono>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
       <se id="01-04痊愈loop" looptimes="0"/>
       <cg/>
