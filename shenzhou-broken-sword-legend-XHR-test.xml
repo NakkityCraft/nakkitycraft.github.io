@@ -10,7 +10,7 @@
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
-      <cg img="CG_第一折_赤鸢沉睡" duration="3" scale="1" origin="2%,100%"/>
+      <cg img="CG_第一折_赤鸢沉睡" duration="3" scale="1" origin="90%,100%"/>
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
