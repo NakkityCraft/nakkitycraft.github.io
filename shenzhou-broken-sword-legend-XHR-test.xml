@@ -2,32 +2,39 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <mono>第一折。</mono>
+      <mono pageend="true">
+        <p>Title: 第一折。</p>
+        <p></p>
+        <p>Commit: More Than Fade</p>
+      </mono>
       <event action="hide_ui"/>
-      <se id="01-03野外小屋loop" looptimes="0"/>
-      <se id="01-04痊愈loop" looptimes="-1"/>
+      <!-- <se id="01-03野外小屋loop" looptimes="0"/>
+      <se id="01-04痊愈loop" looptimes="-1"/> -->
       <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
       <event action="show_ui"/>
-      <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
+      <cg img="回忆篇_李素裳" duration="2"/>
       <delay t="3" />
+      <mono pageend="true">Transition | Halo</mono>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
       <se id="01-04痊愈loop" looptimes="0"/>
       <cg/>
-      <transition in="0" stop="0" out="1" color="#ffffff" mode="fade"/>
+      <mono pageend="true">Transition | Fade | #af0209</mono>
+      <transition in="1" stop="1" out="1" color="#af0209" mode="fade"/>
+      <mono pageend="true">Transition | Fade | #ffffff</mono>
+      <transition in="1" stop="1" out="1" color="#ffffff" mode="fade"/>
+      <mono pageend="true">Transition | Fade | Original</mono>
+      <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
+      <mono pageend="true">Background Music | Clouds</mono>
       <bgm id="千年之羽"/>
       <bg img="PureBlack"/>
       <mono pageend="true">
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p>             逐渐地，她的『意识』获得了知觉。</p>
+        <p>Transition | Move</p>
       </mono>
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <letterbox action="show_letterbox" height="400" duration="0"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
       <bg img="BGSky00"/>
-      <mono>她看见光影交织而成的线从这石室的小窗中自东向西，又自西返东。</mono>
+      <!-- <mono>她看见光影交织而成的线从这石室的小窗中自东向西，又自西返东。</mono> -->
       <!-- <letterbox action="show_letterbox" height="300" duration="1"/>
       <bg img="BGSky01"/>
       <mono>
