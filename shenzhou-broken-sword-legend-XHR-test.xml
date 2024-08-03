@@ -2,18 +2,12 @@
 <data>
   <scripts>
     <scene id="00" title="楔子" root="true">
-      <mono>米哈游请你不要刀赤鸢仙人了求你了x16!!!</mono>
-      <mono>Let get started.</mono>
+      <mono>第一折。</mono>
       <event action="hide_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
-      <!-- <cg img="CG_第一折_赤鸢沉睡" duration="3" scale="1" origin="33%,0%"/> -->
+      <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
       <event action="show_ui"/>
-      <mono pageend="true">
-        <p/>
-        <p>从一个个神经元开始，</p>
-        <p>刀人的我不看刀人的我不看我不看我不看我不看。</p>
-      </mono>
       <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
       <delay t="3" />
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
@@ -27,7 +21,7 @@
         <p/>
         <p/>
         <p/>
-        <p>             逐渐地，仙人的『意识』获得了知觉。</p>
+        <p>             逐渐地，她的『意识』获得了知觉。</p>
       </mono>
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <letterbox action="show_letterbox" height="400" duration="0"/>
