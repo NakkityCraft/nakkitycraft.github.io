@@ -5,7 +5,7 @@
       <mono pageend="true">
         <p>Title: 第一折。</p>
         <p></p>
-        <p>Commit: Fixed Halo/p>
+        <p>Commit: Fixed Halo and P</p>
       </mono>
       <event action="hide_ui"/>
       <!-- <se id="01-03野外小屋loop" looptimes="0"/>
