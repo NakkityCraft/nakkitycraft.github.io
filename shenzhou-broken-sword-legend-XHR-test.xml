@@ -5,17 +5,17 @@
       <mono pageend="true">
         <p>Title: 第一折。</p>
         <p></p>
-        <p>Commit: More Than Fade</p>
+        <p>Commit: Fixed Halo/p>
       </mono>
       <event action="hide_ui"/>
       <!-- <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/> -->
-      <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
+      <!-- <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
       <event action="show_ui"/>
       <cg img="回忆篇_李素裳" duration="2"/>
-      <delay t="3" />
+      <delay t="3" /> -->
       <mono pageend="true">Transition | Halo</mono>
-      <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
+      <transition in="3" stop="0.5" out="0.1" color="#ffffff" mode="halo"/>
       <se id="01-04痊愈loop" looptimes="0"/>
       <cg/>
       <mono pageend="true">Transition | Fade | #af0209</mono>
