@@ -34,7 +34,7 @@
       <se id="01-03野外小屋loop" looptimes="-1"/>
       <bg img="BGSky00"/>
       <mono>她看见光影交织而成的线从这石室的小窗中自东向西，又自西返东。</mono>
-      <letterbox action="show_letterbox" height="300" duration="1"/>
+      <!-- <letterbox action="show_letterbox" height="300" duration="1"/>
       <bg img="BGSky01"/>
       <mono>
         <p/>
@@ -5133,7 +5133,7 @@
       <delay t="1"/>
       <text>苏湄平静地看着她，镇定自若。既无恐惧，也无惊慌。</text>
       <dialog chara="004">「师父已经杀了一个。」</dialog>
-      <transition mode="fade" in="5" stop="0.5" out="0" color="#000000"/>
+      <transition mode="fade" in="5" stop="0.5" out="0" color="#000000"/> -->
     </scene>
   </scripts>
 </data>
