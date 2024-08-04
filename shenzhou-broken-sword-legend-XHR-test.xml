@@ -10,27 +10,6 @@
       <mono pageend="true">这将是一场故事，成为心中所想的美好。</mono>
 
       <mono>cg标签 | 测试。</mono>
-      <!-- <event action="hide_ui"/> -->
-      <!-- <se id="01-03野外小屋loop" looptimes="0"/>
-      <se id="01-04痊愈loop" looptimes="-1"/> -->
-      <!-- <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
-      <event action="show_ui"/>
-      <cg img="回忆篇_李素裳" duration="2"/>
-      <delay t="3" /> -->
-      <!-- <mono pageend="true">Transition | Halo</mono>
-      <transition in="3" stop="0.5" out="0.1" color="#ffffff" mode="halo"/>
-      <se id="01-04痊愈loop" looptimes="0"/>
-      <cg/>
-      <mono pageend="true">Transition | Fade | #af0209</mono>
-      <transition in="1" stop="1" out="1" color="#af0209" mode="fade"/>
-      <mono pageend="true">Transition | Fade | #ffffff</mono>
-      <transition in="1" stop="1" out="1" color="#ffffff" mode="fade"/>
-      <mono pageend="true">Transition | Fade | Original</mono>
-      <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
-      <mono pageend="true">Background Music | Clouds</mono> -->
-      <!-- <mono pageend="true">
-        <p>Transition | Move</p>
-      </mono> -->
       <bgm id="千年之羽"/>
       <bg img="PureBlack"/>
 
