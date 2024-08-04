@@ -3,18 +3,23 @@
   <scripts>
     <scene id="00" title="楔子" root="true">
       <mono pageend="true">
-        <p>Title: 第一折。</p>
+        <p>标题: 第一折。</p>
         <p></p>
-        <p>Commit: Fixed Halo and P</p>
+        <p>提交: motion和cg和transition标签的研究</p>
       </mono>
-      <event action="hide_ui"/>
+
+      <mono>这将是一场故事，</mono>
+      <mono pageend="true">成为心中所想的美好。</mono>
+
+      <mono>cg标签 | 测试。</mono>
+      <!-- <event action="hide_ui"/> -->
       <!-- <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/> -->
       <!-- <cg img="回忆篇_李素裳" duration="3" scale="1" origin="33%,0%"/>
       <event action="show_ui"/>
       <cg img="回忆篇_李素裳" duration="2"/>
       <delay t="3" /> -->
-      <mono pageend="true">Transition | Halo</mono>
+      <!-- <mono pageend="true">Transition | Halo</mono>
       <transition in="3" stop="0.5" out="0.1" color="#ffffff" mode="halo"/>
       <se id="01-04痊愈loop" looptimes="0"/>
       <cg/>
@@ -24,12 +29,52 @@
       <transition in="1" stop="1" out="1" color="#ffffff" mode="fade"/>
       <mono pageend="true">Transition | Fade | Original</mono>
       <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
-      <mono pageend="true">Background Music | Clouds</mono>
+      <mono pageend="true">Background Music | Clouds</mono> -->
+      <!-- <mono pageend="true">
+        <p>Transition | Move</p>
+      </mono> -->
       <bgm id="千年之羽"/>
       <bg img="PureBlack"/>
-      <mono pageend="true">
-        <p>Transition | Move</p>
-      </mono>
+
+      <!-- Original -->
+      <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="2"/>
+      <delay t="2"/>
+      <!-- Origin -->
+      <cg img="CG_第一折_李素裳1" duration="0" origin="30%,0%" scale="2"/>
+      <delay t="2"/>
+      <!-- Duration -->
+      <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
+      <delay t="2"/>
+      <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
+      <delay t="2"/>
+      <!-- Scale -->
+      <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="4"/>
+      <delay t="2"/>
+      <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="4"/>
+      <mono pageend="true">结束。</mono>
+      </cg>
+
+
+      <mono>motion 标签 | 测试</mono>
+      <!-- Original -->
+      <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"/>
+      <bg img="BGDesert01"></bg>
+      <delay t="2"/>
+      <!-- Chara? -->
+      <motion chara="20" action="shake" duration="2" range="80" direction="horizontal"/>
+      <delay t="2"/>
+      <!-- Direction -->
+      <motion chara="-4" action="shake" duration="2" range="80" direction="vertical"/>
+      <mono pageend="true">结束。</mono>
+
+      <mono>transition 标签 | 测试</mono>
+      <!-- Original -->
+      <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
+      <!-- Without -->
+      <transition mode="move" in="1" stop="0.5" out="0.5" color="#af0209" direction="left" />
+      <mono pageend="true">结束。</mono>
+
+
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <letterbox action="show_letterbox" height="400" duration="0"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
