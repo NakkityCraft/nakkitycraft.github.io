@@ -16,14 +16,17 @@
       <!-- Original -->
       <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="2"/>
       <delay t="2"/>
+      <mono>Origin Change</mono>
       <!-- Origin -->
       <cg img="CG_第一折_李素裳1" duration="0" origin="30%,0%" scale="2"/>
       <delay t="2"/>
+      <mono>Duration Change</mono>
       <!-- Duration -->
       <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
       <delay t="2"/>
       <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
       <delay t="2"/>
+      <mono>Scale Change</mono>
       <!-- Scale -->
       <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="4"/>
       <delay t="2"/>
@@ -37,9 +40,11 @@
       <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"/>
       <bg img="BGDesert01"></bg>
       <delay t="2"/>
+      <mono>Chara Try</mono>
       <!-- Chara? -->
       <motion chara="20" action="shake" duration="2" range="80" direction="horizontal"/>
       <delay t="2"/>
+      <mono>Direction Change</mono>
       <!-- Direction -->
       <motion chara="-4" action="shake" duration="2" range="80" direction="vertical"/>
       <mono pageend="true">结束。</mono>
@@ -47,6 +52,7 @@
       <mono>transition 标签 | 测试</mono>
       <!-- Original -->
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
+      <mono>Without Change</mono>
       <!-- Without -->
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#af0209" direction="left" />
       <mono pageend="true">结束。</mono>
