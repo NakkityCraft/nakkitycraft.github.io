@@ -20,7 +20,7 @@
       <!-- Origin                                     x   y -->                                
       <cg img="CG_第一折_李素裳1" duration="0" origin="30%,0%" scale="2"/>
       <delay t="2"/>
-      <cg img="CG_第一折_李素裳1" duration="0" origin="30%,30%" scale="2"/>
+      <cg img="CG_第一折_李素裳1" duration="0" origin="0%,0%" scale="2"/>
       <delay t="2"/>
       <cg img="CG_第一折_李素裳1" duration="0" origin="0%,30%" scale="2"/>
       <delay t="2"/>
@@ -28,7 +28,7 @@
       <!-- Duration -->
       <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
       <delay t="2"/>
-      <cg img="CG_第一折_李素裳1" duration="2" origin="15%,0%" scale="2"/>
+      <cg img="CG_第一折_李素裳1" duration="2" origin="0%,15%" scale="2"/>
       <delay t="2"/>
       <mono>Scale Change</mono>
       <!-- Scale -->
