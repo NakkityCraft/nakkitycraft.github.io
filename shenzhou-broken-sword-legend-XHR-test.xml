@@ -4,7 +4,7 @@
     <scene id="00" title="楔子" root="true">
       <mono pageend="true">
         <p>标题: 第一折。</p>
-        <p>提交: 尝试移除 cg 标签</p>
+        <p>提交: thick同色测试</p>
       </mono>
 
       <mono pageend="true">这将是一场故事，成为心中所想的美好。</mono>
@@ -17,7 +17,7 @@
       <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="2"/>
       <delay t="2"/>
       <mono>Origin Change</mono>
-      <!-- Origin -->
+      <!-- Origin                                     x   y -->                                
       <cg img="CG_第一折_李素裳1" duration="0" origin="30%,0%" scale="2"/>
       <delay t="2"/>
       <cg img="CG_第一折_李素裳1" duration="0" origin="30%,30%" scale="2"/>
@@ -34,7 +34,7 @@
       <!-- Scale -->
       <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="4"/>
       <delay t="2"/>
-      <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="4"/>
+      <cg img="CG_第一折_李素裳1" duration="0" origin="15%,0%" scale="0"/>
       <mono pageend="true">测试完毕。</mono>
 
 
@@ -54,7 +54,7 @@
 
       <mono>transition 标签 | 测试</mono>
       <!-- Original -->
-      <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
+      <transition mode="move" in="1" stop="0.5" out="0.5" color="#af0209" direction="left" custom="thick"/>
       <mono>Without Change</mono>
       <!-- Without -->
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#af0209" direction="left" />
